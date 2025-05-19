@@ -1,10 +1,10 @@
 @font-face{
     font-family: Mytitle;
-    src: url(/Fonts/HindSiliguri-Bold.ttf)
+    src: url(Fonts/HindSiliguri-Bold.ttf)
 }
 @font-face{
     font-family: MyRoboto;
-    src: url(/Fonts/Roboto-VariableFont_wdth\,wght.ttf)
+    src: url(Fonts/Roboto-VariableFont_wdth\,wght.ttf)
 }
 button{
     cursor: pointer;
@@ -78,7 +78,7 @@ button{
     justify-content: center;
     align-items: center;
     flex-direction:column ;
-    background-image: url(/Imgs/intro.png);
+    background-image: url(Imgs/intro.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
