@@ -5,5 +5,5 @@ adress = "0";
 
 
 document.querySelector("#block2").addEventListener("click", function () {
-    document.cookie = adress2;
+    document.cookie = "Проспект Кирова, 37В";
   });
