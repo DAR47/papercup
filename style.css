@@ -1,0 +1,511 @@
+@font-face{
+    font-family: Mytitle;
+    src: url(/Fonts/HindSiliguri-Bold.ttf)
+}
+@font-face{
+    font-family: MyRoboto;
+    src: url(/Fonts/Roboto-VariableFont_wdth\,wght.ttf)
+}
+button{
+    cursor: pointer;
+}
+.container {
+    margin: 0 auto;
+    max-width: 67.30555555555556vmax;
+}
+img{
+    width: 100%;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position:fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #fff;
+}
+.headerInner {
+    display: flex;
+    justify-content: space-between;
+    height: 4vmax;
+}
+.headerLogo {
+    font-size: 1.1vmax;
+    display: flex;
+    align-items: center;
+    font-family: Mytitle;
+    justify-content: center;
+}
+.logoimg {
+    width: 1.8vmax;
+    margin-right: 0.3vmax;
+}
+.headerLinks {
+    width: 22vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headerLink {
+    font-family: Myroboto;
+    font-size: 0.8vmax;
+    font-weight: 500;
+    transition: all 0.2s;
+    text-decoration: none;
+    color: #000;
+
+}
+.headerLink:hover{
+    color:#f47a29;
+}
+button{
+    border-style: none;
+}
+.intro{
+    padding-top: 4vmax;
+
+}
+.introInner {
+    height: 35vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    background-image: url(/Imgs/intro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+.introBlack {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #000000a5;
+}
+.introTitle {
+    font-size: 3.2vmax;
+    z-index: 1;
+    font-family: Mytitle;
+}
+.introSubtitle {
+    font-size: 1.2vmax;
+    margin-bottom: 2vmax;
+    z-index: 1;
+    font-family: Myroboto;
+}
+.introBtns {
+    width: 30vmax;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+.introBtn {
+    background-color: #fff;
+    padding: 1vmax 1.8vmax;
+    border-radius: 0.5vmax;
+    font-family: Myroboto;
+    font-size: 0.87vmax;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.introBtn:hover{
+    background-color: #f47a29;
+    color: #fff;    
+}
+.introBtn:active{
+    transform: scale(0.95);
+}
+.aboutUs {
+}
+.container {
+}
+.aboutUsInner {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4vmax;
+}
+.aboutUsTitle {
+    font-size: 1.8vmax;
+    font-family: Myroboto;
+    font-weight: 500;
+}
+.aboutUsDiscript {
+    display: flex;
+    padding-top: 4vmax;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutUsLeft {
+    font-family: Myroboto;
+    max-width: 33vmax;
+}
+.aboutUsLeftTitle {
+    font-size: 1.2vmax;
+    font-family: Myroboto;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 2vmax;
+}
+.aboutUsLeftSubtitle {
+    font-size: 0.8vmax;
+    font-family: Myroboto;
+    text-align: left;
+    color: #747474;
+    padding-bottom: 1vmax;
+}
+.aboutUsRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aboutUsRightBlock {
+    display: flex;
+    flex-direction: column;
+    width: 13vmax;
+    text-align: left;
+    padding-bottom: 3vmax;
+
+}
+.aboutUsRightBlocks {
+    display: flex;
+    width: 30vmax;
+    justify-content: space-between;
+}
+.aboutUsRightImg {
+    width: 3vmax;
+}
+.aboutUsRightTitle {
+    font-family: Myroboto;
+    font-size: 0.8vmax;
+}
+.aboutUsRightSubtitle {
+    font-family: Myroboto;
+    font-size: 0.7vmax;
+}
+.popularInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.popularTitle {
+    font-size: 1.8vmax;
+    font-family: Myroboto;
+    font-weight: 500;
+    padding: 1vmax;
+}
+.popularSubtitle {
+    font-family: Myroboto;
+    font-size: 1vmax;
+    color: #747474;
+    padding-bottom: 2vmax;
+}
+.popularBlocks {
+    display: flex;
+    width: 100%;
+}
+.popularBlock {
+    width: 32%;
+    font-family: Myroboto;
+    margin-bottom: 2.8vmax;
+    margin-right: 1.2vmax;
+}
+.popularBlockImg {
+    height: 11vmax;
+    background-size: cover;
+    background-position: center;
+    border-radius:  0.5vmax 0.5vmax 0 0;
+    transition: all 0.2s;
+}
+.popularBlockImg:hover{
+    background-position-y: 60%;
+}
+.popularBlockTitle {
+    font-size: 1.2vmax;
+    font-weight: 500;
+    margin-left: 1.5vmax;
+    margin-top: 1.2vmax;
+}
+.popularBlockSubtitle {
+    font-size: 0.7vmax;
+    font-weight: 500;
+    margin-left: 1.5vmax;
+    margin-top: 0.5vmax;
+    color: #747474;
+}
+.popularBlockPrise {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 3vmax;
+    font-size: 0.8vmax;
+    font-weight: 700;
+}
+.popularBlockValue {
+
+}
+.popularBlockPosition {
+    color:#fff;
+    font-size: 0.7vmax;
+    padding: 0.2vmax 0.5vmax;
+    background-color: #f47a29;
+    border-radius: 1vmax;
+}
+.popularBtn {
+    color: #fff;
+    background-color: #f47a29;
+    border-radius: 0.2vmax ;
+    padding: 0.5vmax 0.5vmax;
+    font-family: Myroboto;
+    font-size: 0.9vmax;
+    margin-top: 2vmax;
+}
+.adressesInner {
+    padding-top: 10vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.adressesTitle {
+    font-size: 1.8vmax;
+    font-family: Myroboto;
+    font-weight: 500;
+    padding: 1vmax;
+}
+.adressesSubtitle {
+    font-family: Myroboto;
+    font-size: 1vmax;
+    color: #b9b9b9;
+    padding-bottom: 4vmax;
+}
+.adressesBlocks {
+    display: flex;
+    width: 100%;
+}
+.adressesBlock {
+    width: 32%;
+    font-family: Myroboto;
+    margin-bottom: 2.8vmax;
+    margin-right: 1.2vmax;
+    transition: all 0.2s;
+    text-decoration: none;
+    color: #000;
+
+
+}
+.adressesBlock:hover{
+    background-color: #d4d4d4;
+}
+.adressesImg {
+    height: 11vmax;
+    background-size: cover;
+    background-position: center;
+    border-radius:  0.5vmax 0.5vmax 0 0;
+}
+
+.adressesBlockTitle {
+    font-size: 1.2vmax;
+    font-weight: 500;
+    margin-left: 1.5vmax;
+    margin-top: 1.2vmax;
+}
+.adressesBlockMod {
+    margin-top: 3vmax;
+    display: flex;
+    align-items: center;
+}
+.adressesBlockModImg {
+    width: 1vmax;
+    margin-left: 1.8vmax;
+    margin-right: 0.2vmax;
+}
+.adressesBlockModText {
+    font-size: 0.8vmax;
+}
+.adressesBlockTime {
+    font-size: 0.9vmax;
+    margin-left:1.5vmax ;
+    margin-top: 1vmax;
+    color: #747474;
+}
+.adressesBtn {
+    font-family: Myroboto;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.8vmax;
+    margin-top: 2vmax;
+}
+.bottomInner {
+    margin-top: 5vmax;
+    display: flex;
+    justify-content: space-between;
+    height: 5vmax;
+}
+.bottomLogo {
+    display: flex;
+    font-family: Mytitle;
+    font-size: 1vmax;
+    font-weight: 100;
+    align-items: center;
+   
+}
+.bottomImg{
+    width: 1.5vmax;
+    height: 1.3vmax;
+    margin-right: 0.5vmax ;
+}
+.bottomLinks {
+    width: 22vmax;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bottomLink {
+    font-family: Myroboto;
+    font-size: 0.8vmax;
+    font-weight: 500;
+    color: #747474;
+    transition: all 0.2s;
+}
+.bottomLink:hover{
+    color: #000;
+}
+.reserveInner {
+    padding-top: 9vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reserveText{
+    align-self: start;
+}
+.reserveTitle {
+    font-family: Myroboto;
+    color:#000;
+    font-size: 1.3vmax;
+    font-weight: 900;
+    padding-bottom: 1vmax;
+}
+.reserveSubtitle {
+    font-family: Myroboto;
+    color:#000;
+    font-size: 1vmax;
+}
+.reserveForm {
+    margin-top: 2vmax;
+    display: flex;
+    width: 30vmax;
+    flex-direction:column;
+    font-family: Myroboto;
+    font-size: 0.8vmax;
+
+}
+.phone{
+    width: 30%;
+}
+.time{
+    width: 30%;
+
+}
+.formElemnt{
+    display:flex;
+    flex-direction: column;
+    border-style:none;
+    margin-top: 2vmax;
+}
+input{
+    border: none;
+    height: 1.5vmax;
+    margin-top: 1vmax;
+}
+input:active{
+    border-width: 1px;
+}
+.formFlex {
+    display: flex;
+    justify-content: space-between;
+}
+.formBtn {
+    width: 100%;
+    text-align: center;
+    background-color: #f47a29;
+    color: #fff;
+    padding: 0.6vmax 0;
+    font-family: Myroboto;
+    font-size: 0.8vmax;
+    border-radius: 0.5vmax;
+    margin-top: 4vmax;
+    
+}
+.adressListInner {
+    padding-top: 10vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adressListTitle {
+    font-family: Myroboto;
+    font-size: 1.5vmax;
+    font-weight: 900;
+    align-self: flex-start;
+    margin-bottom: 4vmax;
+}
+.adressListSubTitle {
+    font-family: Myroboto;
+    font-size: 1vmax;
+    font-weight: 500;
+    margin-bottom: 2vmax;
+}
+.adressListBlock {
+    width: 25vmax;
+    margin-bottom: 5vmax;
+    position: relative;
+}
+
+.adressListName {
+    font-family: Myroboto;
+    font-size: 1vmax;
+    font-weight: 500;
+    margin-bottom: 2vmax;
+}
+
+.adressListTables {
+    font-family: Myroboto;
+    font-size: 0.6vmax;
+    font-weight: 500;
+    margin-bottom: 2vmax;
+    color: #747474;
+}
+
+.adressListBtn {
+    width: 100%;
+    background-color: #f47a29;
+    border-radius: 0.5vmax;
+    padding: 0.8vmax 50%;
+    color:#fff;
+    font-family: Myroboto;
+    font-size: 0.6vmax;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+
+}
