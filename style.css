@@ -78,7 +78,7 @@ button{
     justify-content: center;
     align-items: center;
     flex-direction:column ;
-    background-image: url(/Imgs/intro.png);
+    background-image: url(Imgs/intro.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
